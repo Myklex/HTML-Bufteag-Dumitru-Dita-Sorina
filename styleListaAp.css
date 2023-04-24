@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+  }
+  #headerWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    width: inherit;
+    background-color: rgba(217, 217, 217, 0.8);
+    font-size: xx-large;
+  }
+  header {
+    
+    
+    height: 200px;
+    text-align: center;
+    background-image: url(https://media.minto.com/img/gallery/apartment/edmonton/edmonton-lancaster-header-514.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    
+  }
+  
+  nav {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: white;
+    background-color: #333333;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .listing {
+    border: 1px solid
+  }
+
+  .listing img{
+    width: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  footer {
+    text-align: center;
+  }
